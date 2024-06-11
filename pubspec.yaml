@@ -1,0 +1,55 @@
+name: tasky
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.4
+  country_code_picker: ^3.0.0
+  cupertino_icons: ^1.0.6
+  dartz: ^0.10.1
+  dio: ^5.4.3+1
+  dotted_border: ^2.1.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  font_awesome_flutter: ^10.7.0
+  get_it: ^7.7.0
+  http: ^1.2.1
+  internet_connection_checker: ^1.0.0+1
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+  http_parser: ^4.0.2
+  qr_flutter:
+    git:
+      url: https://github.com/theyakka/qr.flutter.git
+  qr_code_scanner: ^1.0.1
+  flutter_styled_toast: ^2.2.1
+  
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#5F33E1"
+  image: assets/images/app_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
